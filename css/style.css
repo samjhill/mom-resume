@@ -167,6 +167,10 @@ ul {
     background: -webkit-linear-gradient(right, #d61a5e, #ff8c05);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+}
+.navbar-brand {
+    margin-right: 0;
 }
 .navbar .navbar-nav .nav-item .nav-link {
     color: #fff;
