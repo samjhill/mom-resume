@@ -39,7 +39,7 @@ $(function() {
     const onlyUnique = (value, index, self) => {
         return self.indexOf(value) === index;
     };
-    const uniqueTags = portfolioItems.map(item => item.tag).filter(onlyUnique);
+    const uniqueTags = portfolioItems.map(item => item.tag).flat().filter(onlyUnique);
     const htmlForTags = uniqueTags.map(tag => createHtmlForTagItem(tag));
     htmlForTags.map(item => document.getElementById("tags-list").innerHTML += item);
 
