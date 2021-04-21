@@ -3,7 +3,44 @@ $(function() {
     'use strict';
 
     // dynamic portfolio items
-
+    const portfolioItems = [
+        {
+            imageUrl: "images/portfolio-items/breakaway-entertainment-website.jpg",
+            title: "Breakaway Entertainment Website",
+            tag: "entertainment"
+        },
+        {
+            imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
+            title: "Delia Contracting",
+            tag: "business"
+        },
+        {
+            imageUrl: "images/portfolio-items/fwt-insurance-services-website.jpg",
+            title: "FWT Insurance Services",
+            tag: "business"
+        },
+        {
+            imageUrl: "images/portfolio-items/her-fit-logo-transweb.jpg",
+            title: "Her Fit Logo",
+            tag: "fitness"
+        },
+        {
+            imageUrl: "images/portfolio-items/olf-logo-2020.jpg",
+            title: "OLF Fit Logo",
+            tag: "fitness"
+        },
+        {
+            imageUrl: "images/portfolio-items/rja-international-website.jpg",
+            title: "RJA International Logo",
+            tag: "fitness"
+        },
+        {
+            imageUrl: "images/portfolio-items/yankenfera-cleaners-website.jpg",
+            title: "Yankenfera Cleaners",
+            tag: ["business"]
+        }
+    ];
+    
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
         return `
             <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="${tag}">
