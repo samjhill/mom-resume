@@ -2,6 +2,63 @@ $(function() {
 
     'use strict';
 
+    // dynamic portfolio items
+    // const filterPortfolioItemsByTag = (tagName) => {
+    //     console.log('filtering by', tagName)
+    //     const allPortfolioItems = document.querySelectorAll('[data-category]');
+    //     // set all items to invisible
+    //     for (let i = 0; i < allPortfolioItems.length; i++) {
+    //         allPortfolioItems[i].style.visibility = "hidden";
+    //     }
+    //     // set items with the given tag to visible
+    //     for (let i = 0; i < allPortfolioItems.length; i++) {
+    //         const item = allPortfolioItems[i];
+    //         console.log(item)
+    //         if (item.dataset.category === tagName) {
+    //             allPortfolioItems[i].style.visibility = "visible";
+    //         }
+    //     }
+    // };
+
+    const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
+        return `
+            <div class="col-md-4 col-sm-12 col-xs-12 filtr-item" data-category="${tag}">
+                <div class="content-image">
+                    <a href="${imageUrl}" class="portfolio-popup">
+                        <img src="${imageUrl}" alt="">
+                        <div class="image-overlay"></div>
+                        <div class="portfolio-caption">
+                            <div class="title">
+                                <h4>${title}</h4>
+                            </div>
+                            <div class="subtitle">
+                                <span>Graphic Design</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        `;
+    };
+
+    const htmlForPortfolioItems = portfolioItems.map(item => createHtmlForPortfolioItem(item));
+    htmlForPortfolioItems.map(item => document.getElementById("portfolio-items").innerHTML += item);
+
+    // dynamic portfolio tags
+    const createHtmlForTagItem = (name) => {
+        return `
+            <li data-filter="${name}">
+                <span>${name}</span>
+            </li>
+        `;
+    };
+    const onlyUnique = (value, index, self) => {
+        return self.indexOf(value) === index;
+    };
+    const uniqueTags = portfolioItems.map(item => item.tag).filter(onlyUnique);
+    const htmlForTags = uniqueTags.map(tag => createHtmlForTagItem(tag));
+    htmlForTags.map(item => document.getElementById("tags-list").innerHTML += item);
+
     $('.fakeLoader').fakeLoader({
 
         timeToHide: 1200, //Time in milliseconds for fakeLoader disappear
@@ -81,6 +138,4 @@ $(function() {
         }
 
     });
-
-
 });
