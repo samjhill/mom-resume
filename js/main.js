@@ -3,22 +3,6 @@ $(function() {
     'use strict';
 
     // dynamic portfolio items
-    // const filterPortfolioItemsByTag = (tagName) => {
-    //     console.log('filtering by', tagName)
-    //     const allPortfolioItems = document.querySelectorAll('[data-category]');
-    //     // set all items to invisible
-    //     for (let i = 0; i < allPortfolioItems.length; i++) {
-    //         allPortfolioItems[i].style.visibility = "hidden";
-    //     }
-    //     // set items with the given tag to visible
-    //     for (let i = 0; i < allPortfolioItems.length; i++) {
-    //         const item = allPortfolioItems[i];
-    //         console.log(item)
-    //         if (item.dataset.category === tagName) {
-    //             allPortfolioItems[i].style.visibility = "visible";
-    //         }
-    //     }
-    // };
 
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
         return `
@@ -105,7 +89,9 @@ $(function() {
 
     // porfolio filterizr
     $('.filtr-container').imagesLoaded( function() {
-        var filterizr = $('.filtr-container').filterizr();
+        var filterizr = $('.filtr-container').filterizr({
+            layout: 'sameWidth',
+        });
     });
 
     // portfolio filter
