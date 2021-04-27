@@ -38,7 +38,12 @@ $(function() {
             imageUrl: "images/portfolio-items/yankenfera-cleaners-website.jpg",
             title: "Yankenfera Cleaners",
             tag: ["business"]
-        }
+        },
+         {
+            imageUrl: "images/portfolio-items/2018VCN Butterflylogo750pxl.png",
+            title: "Vital Change Now Logo",
+            tag: ["business"]
+        },
     ];
     
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
