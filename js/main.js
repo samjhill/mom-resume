@@ -39,9 +39,29 @@ $(function() {
             title: "Yankenfera Cleaners",
             tag: ["business"]
         },
-         {
+        {
             imageUrl: "images/portfolio-items/2018VCN-Butterflylogo750pxl.png",
             title: "Vital Change Now Logo",
+            tag: ["business"]
+        },
+        {
+            imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
+            title: "BNI Visitors Day 6",
+            tag: ["business"]
+        },
+        {
+            imageUrl: "images/portfolio-items/FPC-Celebration-invite.jpg",
+            title: "FPC Celebration Invite",
+            tag: ["business"]
+        },
+        {
+            imageUrl: "images/portfolio-items/HillLand-Website.png",
+            title: "Hill Landscaping Website",
+            tag: ["business"]
+        },
+        {
+            imageUrl: "images/portfolio-items/Hot-Flashes-card.jpg",
+            title: "Hot Flashes",
             tag: ["business"]
         },
     ];
