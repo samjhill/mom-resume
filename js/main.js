@@ -166,4 +166,11 @@ $(function() {
         }
 
     });
+
+
+    // form submission
+    document.getElementById("submit").addEventListener("click",function(e){
+        document.getElementsByClassName("form-fields")[0].style.display = "none";
+        document.getElementsByClassName("success-message")[0].style.display = "block";
+    }, false);
 });

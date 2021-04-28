@@ -376,39 +376,44 @@
                     </div>
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="content-right">
-                            <form action="contact-form.php" class="contact-form" id="contact-form" method="post">
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="first-name-field">
-                                            <input type="text" placeholder="First Name" class="form-control" name="form-name">
+                            <form action="https://formspree.io/f/mnqljjob" class="contact-form" id="contact-form" method="POST" target="hiddenFrame">
+                                <div class="form-fields">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div id="first-name-field">
+                                                <input type="text" placeholder="First Name" class="form-control" name="form-name">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div id="last-name-field">
+                                                <input type="text" placeholder="Last Name" class="form-control" name="form-name">
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col">
-                                        <div id="last-name-field">
-                                            <input type="text" placeholder="Last Name" class="form-control" name="form-name">
+                                    <div class="row">
+                                        <div class="col">
+                                            <div id="email-field">
+                                                <input type="email" placeholder="Email Address" class="form-control" name="form-email">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div id="subject-field">
+                                                <input type="text" placeholder="Subject" class="form-control" name="form-subject">
+                                            </div>
                                         </div>
                                     </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <div id="message-field">
+                                                <textarea cols="30" rows="5" class="form-control" id="form-message" name="form-message" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="button" type="submit" id="submit" name="submit">Send Message</button>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="email-field">
-                                            <input type="email" placeholder="Email Address" class="form-control" name="form-email">
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div id="subject-field">
-                                            <input type="text" placeholder="Subject" class="form-control" name="form-subject">
-                                        </div>
-                                    </div>
+                                <div class="success-message" style="display: none; margin-top: 5rem;">
+                                    <h3>Success! Thanks for the message. I'll get back to you soon.</h3>
                                 </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <div id="message-field">
-                                            <textarea cols="30" rows="5" class="form-control" id="form-message" name="form-message" placeholder="Message"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <button class="button" type="submit" id="submit" name="submit">Send Message</button>
                             </form>
                         </div>
                     </div>
@@ -438,10 +443,9 @@
     <script src="js/jquery.filterizr.min.js"></script>
     <script src="js/imagesloaded.pkgd.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/contact-form.js"></script>
     <script src="js/main.js"></script>
 
-
+    <iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 </body>
 
 </html>
