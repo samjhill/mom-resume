@@ -40,7 +40,7 @@ $(function() {
             tag: ["business"]
         },
          {
-            imageUrl: "images/portfolio-items/2018VCN Butterflylogo750pxl.png",
+            imageUrl: "images/portfolio-items/2018VCN-Butterflylogo750pxl.png",
             title: "Vital Change Now Logo",
             tag: ["business"]
         },
