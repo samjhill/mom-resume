@@ -25,9 +25,9 @@ $(function() {
             tag: ["business"]
         },
         {
-            imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
-            title: "Delia Contracting",
-            tag: "business"
+            imageUrl: "images/portfolio-items/FPC-Celebration-invite.jpg",
+            title: "FPC Celebration Invite",
+            tag: ["business"]
         },
          {
             imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
@@ -54,17 +54,17 @@ $(function() {
             title: "RJA International Logo",
             tag: "fitness"
         },
-        {
-            imageUrl: "images/portfolio-items/FPC-Celebration-invite.jpg",
-            title: "FPC Celebration Invite",
-            tag: ["business"]
-        },
+        
         {
             imageUrl: "images/portfolio-items/HillLand-Website.png",
             title: "Hill Landscaping Website",
             tag: ["business"]
         },
-        
+        {
+            imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
+            title: "Delia Contracting",
+            tag: "business"
+        },
     ];
     
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
