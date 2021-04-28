@@ -10,6 +10,16 @@ $(function() {
             tag: "entertainment"
         },
         {
+            imageUrl: "images/portfolio-items/2018VCN-ButterflyLogo750pxl.png",
+            title: "Vital Change Now Logo",
+            tag: ["business"]
+        },
+        {
+            imageUrl: "images/portfolio-items/Hot-Flashes-card.jpg",
+            title: "Hot Flashes",
+            tag: ["business"]
+        },
+        {
             imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
             title: "Delia Contracting",
             tag: "business"
@@ -40,11 +50,6 @@ $(function() {
             tag: ["business"]
         },
         {
-            imageUrl: "images/portfolio-items/2018VCN-ButterflyLogo750pxl.png",
-            title: "Vital Change Now Logo",
-            tag: ["business"]
-        },
-        {
             imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
             title: "BNI Visitors Day 6",
             tag: ["business"]
@@ -59,11 +64,7 @@ $(function() {
             title: "Hill Landscaping Website",
             tag: ["business"]
         },
-        {
-            imageUrl: "images/portfolio-items/Hot-Flashes-card.jpg",
-            title: "Hot Flashes",
-            tag: ["business"]
-        },
+        
     ];
     
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
