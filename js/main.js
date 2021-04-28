@@ -24,6 +24,11 @@ $(function() {
             title: "Delia Contracting",
             tag: "business"
         },
+         {
+            imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
+            title: "BNI Visitors Day 6",
+            tag: ["business"]
+        },
         {
             imageUrl: "images/portfolio-items/fwt-insurance-services-website.jpg",
             title: "FWT Insurance Services",
@@ -49,11 +54,7 @@ $(function() {
             title: "Yankenfera Cleaners",
             tag: ["business"]
         },
-        {
-            imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
-            title: "BNI Visitors Day 6",
-            tag: ["business"]
-        },
+       
         {
             imageUrl: "images/portfolio-items/FPC-Celebration-invite.jpg",
             title: "FPC Celebration Invite",
