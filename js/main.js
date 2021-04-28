@@ -19,6 +19,11 @@ $(function() {
             title: "Hot Flashes",
             tag: ["business"]
         },
+            {
+            imageUrl: "images/portfolio-items/yankenfera-cleaners-website.jpg",
+            title: "Yankenfera Cleaners",
+            tag: ["business"]
+        },
         {
             imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
             title: "Delia Contracting",
@@ -49,12 +54,6 @@ $(function() {
             title: "RJA International Logo",
             tag: "fitness"
         },
-        {
-            imageUrl: "images/portfolio-items/yankenfera-cleaners-website.jpg",
-            title: "Yankenfera Cleaners",
-            tag: ["business"]
-        },
-       
         {
             imageUrl: "images/portfolio-items/FPC-Celebration-invite.jpg",
             title: "FPC Celebration Invite",
