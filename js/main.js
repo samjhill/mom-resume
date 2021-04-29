@@ -54,7 +54,11 @@ $(function() {
             title: "RJA International Logo",
             tag: "fitness"
         },
-        
+        {
+            imageUrl: "images/portfolio-items/Freebie-What-to-Eat-for-That.png",
+            title: "Vital Change Now Program",
+            tag: "fitness"
+        },
         {
             imageUrl: "images/portfolio-items/HillLand-Website.png",
             title: "Hill Landscaping Website",
