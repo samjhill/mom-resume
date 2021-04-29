@@ -55,7 +55,7 @@ $(function() {
             tag: "fitness"
         },
         {
-            imageUrl: "images/portfolio-items/Freebie-What-to-Eat-for-That.png",
+            imageUrl: "images/portfolio-items/Freebie-What-to-Eat-for-That.pdf",
             title: "Vital Change Now Program",
             tag: "fitness"
         },
