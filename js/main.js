@@ -16,12 +16,12 @@ $(function() {
         },
         {
             imageUrl: "images/portfolio-items/Hot-Flashes-card.jpg",
-            title: "Hot Flashes",
+            title: "Hot Flashes Card Series",
             tag: ["business"]
         },
             {
             imageUrl: "images/portfolio-items/yankenfera-cleaners-website.jpg",
-            title: "Yankenfera Cleaners",
+            title: "Yankenfera Cleaners Website",
             tag: ["business"]
         },
         {
@@ -46,12 +46,12 @@ $(function() {
         },
         {
             imageUrl: "images/portfolio-items/olf-logo-2020.jpg",
-            title: "OLF Fit Logo",
+            title: "OLF Logo",
             tag: "fitness"
         },
         {
             imageUrl: "images/portfolio-items/rja-international-website.jpg",
-            title: "RJA International Logo",
+            title: "RJA International Website",
             tag: "fitness"
         },
         {
@@ -66,7 +66,7 @@ $(function() {
         },
         {
             imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
-            title: "Delia Contracting",
+            title: "Delia Contracting Retro Logo",
             tag: "business"
         },
     ];
