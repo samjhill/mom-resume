@@ -64,11 +64,6 @@ $(function() {
             title: "Hill Landscaping Website",
             tag: ["business"]
         },
-        {
-            imageUrl: "images/portfolio-items/delia-contracting-logo.jpg",
-            title: "Delia Contracting Retro Logo",
-            tag: "business"
-        },
     ];
     
     const createHtmlForPortfolioItem = ({ imageUrl, title, tag }) => {
