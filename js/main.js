@@ -31,7 +31,7 @@ $(function() {
         },
          {
             imageUrl: "images/portfolio-items/BNI-Visitors-Day-6.png",
-            title: "BNI Visitors Day 6",
+            title: "BNI Visitors Day Email Series",
             tag: ["business"]
         },
         {
